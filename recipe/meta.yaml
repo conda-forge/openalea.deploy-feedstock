@@ -10,14 +10,15 @@ source:
   sha256: 0508b493a9dcac9577f8e7f0092b91bbc01394243dbcc562b3832d39d8686bb9
 
 build:
-  number: 0
-  script: "{{ PYTHON }} setup.py install --single-version-externally-managed --record record.txt"
+  number: 1
+  script: "{{ PYTHON }} setup.py install"
   preserve_egg_dir: True
 
 requirements:
   host:
     - python
     - setuptools
+    - six
   run:
     - python
     - setuptools
