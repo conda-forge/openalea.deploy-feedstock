@@ -10,7 +10,7 @@ source:
   sha256: c56e1a23f9c37baa685e8f2b8ccc2858211603fd042ef33ba93847e2722f7048
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} setup.py install
   preserve_egg_dir: true
 
