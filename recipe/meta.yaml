@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openalea/deploy/archive/v{{ version }}.tar.gz
-  sha256: c56e1a23f9c37baa685e8f2b8ccc2858211603fd042ef33ba93847e2722f7048
+  sha256: 34c9c7dc123476dad6d41e528f32e56ca5bf57fa1add0916821b0ab8fbc93008
 
 build:
   number: 0
