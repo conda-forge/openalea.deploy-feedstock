@@ -10,7 +10,7 @@ source:
   sha256: 34c9c7dc123476dad6d41e528f32e56ca5bf57fa1add0916821b0ab8fbc93008
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} setup.py install
   preserve_egg_dir: true
 
@@ -40,9 +40,9 @@ about:
     Python 3.7+. It is an extension of setuptools.
     Features :
 
-        Install shared libraries, include and libs in eggs
-        Support 'develop' command
-        Call SCons or CMake scripts in setup.py
+      * Install shared libraries, include and libs in eggs
+      * Support 'develop' command
+      * Call SCons or CMake scripts in setup.py
 
   dev_url: https://github.com/openalea/deploy
 
