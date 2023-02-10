@@ -1,5 +1,5 @@
 {% set name = "openalea.deploy" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/openalea/deploy/archive/v{{ version }}.tar.gz
-  sha256: 34c9c7dc123476dad6d41e528f32e56ca5bf57fa1add0916821b0ab8fbc93008
+  sha256: e91910780c4017e2e785be89ade7b76031156691f64d8b057b9dc93594502c52
 
 build:
-  number: 3
+  number: 0
   script: {{ PYTHON }} setup.py install
   preserve_egg_dir: true
 
@@ -49,4 +49,3 @@ about:
 extra:
   recipe-maintainers:
     - pradal
-    - fredboudon
