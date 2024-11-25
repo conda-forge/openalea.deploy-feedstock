@@ -1,5 +1,5 @@
 {% set name = "openalea.deploy" %}
-{% set version = "3.1.2" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openalea/deploy/archive/v{{ version }}.tar.gz
-  sha256: 7e255122a98738046dfa29ca4bdfbb0b4fca22651a399175d6d372a9d4840d38
+  sha256: 27d3e8881a2ffef778f4a9f5dc690a06a9ed93dee7079be82596bed6d9372a4f
 
 build:
   number: 0
